@@ -1,8 +1,7 @@
-# virtual machine - azwdmdasa0421, resource group - dmd-uat-ecommerce-aae
 # resize the size of vm from Standard from D2s_v3 to "D4s v3 (4 vcpus, 16 GB memory)" 
 #Ensure the azure subscription is set to the below
-#Set-AzureRmContext -Subscription "TWQUAT(Converted to EA)"
-$resourceGroup = "dmd-prd-elastic-aae"
+#Set-AzureRmContext -Subscription "subscription name"
+$resourceGroup = "<resourcegroup>"
 $vmName = "<name>"
 #echo "getting the vmsize now..."
 #Get-AzureRmVMSize -ResourceGroupName $resourceGroup -VMName $vmName
